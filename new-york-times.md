@@ -1,6 +1,6 @@
 Vamos ahora a practicar todo lo aprendido estructurando el documento HTML de la web del NYT. Es la siguiente:
 
-[NewYorkTimes.pdf](%F0%9F%9F%A2%20SESIO%CC%81N%201%20-%20HTML%200ef5237969174592b386c7366a8b7900/NewYorkTimes%201.pdf)
+[NewYorkTimes.pdf](recursos/NewYorkTimes.pdf)
 
 El resultado final sería:
 
