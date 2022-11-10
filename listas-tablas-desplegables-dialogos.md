@@ -1,4 +1,4 @@
-**LISTAS** 
+## LISTAS
 
 La etiqueta ul nos permite crear un listado dentro de HTML, cada elemento de la lista estará identificado con la etiqueta li. En caso de quere hacer una lista ordenada podemos usar ol
 
@@ -55,7 +55,7 @@ Podemos también anidar listas:
 </ol>
 ```
 
-**TABLAS**
+## TABLAS
 
 También podemos hacer tablas en HTML, para ello utilizaremos la etiqueta table, para cada fila la etiqueta tr y para cada columna la etiqueta td
 
@@ -138,8 +138,7 @@ Para tablas grandes tenemos la estructura:
 ```
 
  
-
-**DETAILS**
+## DETAILS
 
 El objetivo de la etiqueta details es poder crear un elemento desplegable que los usuarios 
 
@@ -158,7 +157,7 @@ puedan expandir y contraer para mostrar información. La estructura es la siguie
 
 La información desplegable puede ser cualquier contenido, no hace falta que sea un párrafo.
 
-**DIÁLOGOS EMERGENTES**
+## DIÁLOGOS EMERGENTES
 
 Podemos utilizarlos para mostrar avisos o alertas al usuario. Normalmente, a la hora de enviar este tipo de alertas utilizamos en javascript la función alert. Ahora podemos hacerlo directamente desde HTML5. Pondremos el atributo open para que salga directamente la modal.
 
