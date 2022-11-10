@@ -27,7 +27,7 @@ Estas etiquetas también pueden tener atributos, por ejemplo un atributo de colo
 
  
 
-**ESTRUCTURA DE UN DOCUMENTO HTML**
+## ESTRUCTURA DE UN DOCUMENTO HTML
 
 Una vez dada esta visión global de HTML que vimos en el prework, vamos a empezar dando un un repaso a la estructura de un documento HTML.
 
@@ -49,7 +49,7 @@ La estructura típica de un documento HTML podría ser la siguiente:
 
 *Recordad que esta estructura podéis montarla en VSC escribiendo el signo ! y pulsando enter.*
 
-**ETIQUETA DOCTYPE**
+### ETIQUETA DOCTYPE
 
 Lo primero que tenemos es la etiqueta <doctype> que indicará al navegador la versión de HTML que se está utilizando en el documento:
 
@@ -59,11 +59,11 @@ Lo primero que tenemos es la etiqueta <doctype> que indicará al navegador la ve
 
 Esta etiqueta hace referencia al estándar actual, e indica al navegador que estamos usando HTML 5.
 
-**ETIQUETA HTML**
+### ETIQUETA HTML
 
 La etiqueta <html> es la raíz del documento. Como hemos comentado, HTML tiene forma de árbol, por lo tanto, la etiqueta <html> será el nodo del que cuelguen todas las demás etiquetas.
 
-**ETIQUETA HEAD y BODY**
+### ETIQUETA HEAD y BODY
 
 La etiquetas head y body son los únicos nodo hijo que puede tener una etiqueta html. A partir de ahí, la etiqueta head contiene todo el contenido que no se muestra en el navegador, mientras que en la etiqueta body meteremos todo aquel contenido que sí queremos mostrar.
 
@@ -159,15 +159,15 @@ Recordad, que si lo incluimos dentro del head, se cargará en paralelo con el do
 
 Si yo incluyo un enlace en mi página con el atributo *href=”cursos”*, al pulsarlo la página a la que nos llevará será *http://www.mipagina.com/cursos.* Lo entenderéis mejor cuando trabajemos en los próximos vídeos con rutas.
 
-**ETIQUETAS SEMÁNTICAS HTML5**
+## ETIQUETAS SEMÁNTICAS HTML5
 
 Dentro de la etiqueta body incluiremos todo el contenido que queremos mostrar, títulos, textos, imágenes…
 
 Con la aparición de HMTL5, surgieron las etiquetas semánticas que nos ayudan a establecer estructuras en nuestra página, ayudando al navegador a entender mejor lo que mostrábamos.
 
-![Untitled](%F0%9F%9F%A2%20SESIO%CC%81N%201%20-%20HTML%200ef5237969174592b386c7366a8b7900/Untitled.png)
+![estructura](recursos/estructura-semantica.png)
 
-**HEADER**
+### HEADER
 
 Hace referencia al título de nuestra página web y contenido importante que hiciese referencia a nuestra página. Normalmente título y logo, como ocurría en el ejercicio de final de prework.
 
@@ -177,7 +177,7 @@ Hace referencia al título de nuestra página web y contenido importante que hic
 </header>
 ```
 
-**NAV**
+### NAV
 
 Sección de nuestro documento HTML donde encapsularíamos la navegación, lo que viene siendo el menu de la página.
 
@@ -191,7 +191,7 @@ Sección de nuestro documento HTML donde encapsularíamos la navegación, lo que
 
  
 
-**MAIN**
+### MAIN
 
 Contenido principal de nuestra web.
 
@@ -203,7 +203,7 @@ Contenido principal de nuestra web.
 </main>
 ```
 
-**SECTION**
+### SECTION
 
 Etiqueta que utilizaremos para estructurar cada una de las secciones de nuestra página web. Si tomamos como referencia un periódico, estas serían la sección noticias, sección deportes…
 
@@ -213,7 +213,7 @@ Etiqueta que utilizaremos para estructurar cada una de las secciones de nuestra 
 </section>
 ```
 
-**ARTICLE**
+### ARTICLE
 
 Los article podemos identificarlos, siguiendo el símil, como cada una de los artículos de esas secciones del periódico. Hace referencia a una parte de código que puede ser independiente.
 
@@ -225,7 +225,7 @@ Estos artículos nos los podríamos llevar a cualquier lado de la página web y 
 </article>
 ```
 
-**ASIDE**
+### ASIDE
 
 Para indicar contenido no prioritario, como podría ser la sección de anuncios.
 
@@ -235,7 +235,7 @@ Para indicar contenido no prioritario, como podría ser la sección de anuncios.
 </aside>
 ```
 
-**FOOTER**
+### FOOTER
 
 Sería el pie de página de nuestra web.
 
@@ -305,7 +305,7 @@ Ejemplo:
 </html>
 ```
 
-**DIV**
+### DIV
 
 Para cualquier otro bloque, sin contenido semántico, utilizaremos DIV. En versiones anteriores de HTML donde no existían las etiquetas semánticas, todas las divisiones en bloques se hacían a nivel de DIV.
 
