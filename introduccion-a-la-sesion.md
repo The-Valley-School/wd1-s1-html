@@ -1,4 +1,6 @@
-[DIAPOSITIVAS](recursos/intro-diapositivas.pdf)
+
+[DIAPOSITIVAS](recursos/FW-S1-Introduccion.pdf)
+
 ---
 ¡Bienvenidos a la primera sesión del Máster!
 
