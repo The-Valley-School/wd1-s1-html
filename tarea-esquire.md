@@ -2,6 +2,8 @@ Tras haber practicado juntos la estructura HTML del New York Times os toca a vos
 
 Os dejamos la página web de Esquire para que hagáis lo mismo que hemos hecho en el ejercicio anterior, ir estructurando la web usando las etiquetas que hemos aprendido a lo largo de la sesión.
 
+[Esquire.pdf](recursos/WD-S1-Esquire.pdf)
+
 No os preocupéis por los estilos, no hace falta trabajar con CSS, únicamente estructurar el documento HTML para asentar todos los conocimientos de la sesión.
 
 Os tendría que quedar algo similar a esto:
