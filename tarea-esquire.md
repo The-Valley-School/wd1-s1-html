@@ -6,10 +6,10 @@ No os preocupéis por los estilos, no hace falta trabajar con CSS, únicamente e
 
 Os tendría que quedar algo similar a esto:
 
-[FW-S1-Esquire-Etiquetas.pdf](%F0%9F%9F%A2%20SESIO%CC%81N%201%20-%20HTML%200ef5237969174592b386c7366a8b7900/FW-S1-Esquire-Etiquetas%201.pdf)
+[Esquire-Etiquetas.pdf](recursos/WD-S1-Esquire-Etiquetas.pdf)
 
 Os dejamos también los assets de las imágenes utilizadas
 
-[assets.zip](%F0%9F%9F%A2%20SESIO%CC%81N%201%20-%20HTML%200ef5237969174592b386c7366a8b7900/assets%201.zip)
+[assets.zip](recursos/assets.zip)
 
 ¡A por ello!
