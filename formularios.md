@@ -4,9 +4,9 @@ Como vimos en el prework, casi cualquier página web tiene formularios. Estos no
 - Un email para suscribirse a una newsletter
 - Nombre y apellidos para apuntarse a un correo….
 
-**ESTRUCTURA DE FORMULARIO**
+## ESTRUCTURA DE FORMULARIO
 
-**FORM**
+### FORM
 
 Para crear un formulario usaremos la etiqueta form:
 
@@ -37,7 +37,7 @@ Dentro de esta etiqueta podemos definir dos atributos:
 
  
 
-**FIELDSET**
+### FIELDSET
 
 Se trata de una agrupación de elementos comunes dentro del formulario y siembre va acompañada de la etiquete legend que le asigna un título descriptivo. Por ejemplo, en el caso de un registro a un gimnasio podríamos tener la agrupación de datos personales, la agrupación de datos bancarios y la agrupación de datos relacionados con el tipo de suscripción que se desea.
 
@@ -51,7 +51,7 @@ Se trata de una agrupación de elementos comunes dentro del formulario y siembre
 </form>
 ```
 
-**INPUT Y LABEL**
+### INPUT Y LABEL
 
 Para que el usuario pueda introducir información usamos las etiquetas input (igual que la de img, no hay apertura cierre). Con la etiqueta label damos información al usuario del contenido que tiene que meter dentro de ese input:
 
@@ -133,7 +133,7 @@ A la hora de desarrollar, es muy frecuente que el input tipo submit sea un botó
 
 En este atributo tenemos la propiedad **reset** que nos borrará la información de todo el formulario.
 
-**VALIDACIÓN DE FORMULARIOS**
+## VALIDACIÓN DE FORMULARIOS
 
 La validación de formularios en HTML5 nos va a permitir comprobar de forma nativa cada entrada de datos en base a unos atributos. No es personalizable así que nos tendremos que ajustar a las opciones que nos marcan los atributos.
 
@@ -174,11 +174,11 @@ Partiendo del siguiente formulario:
 
 Los tipos de validación básicos serían:
 
-**TYPE**
+### TYPE
 
 Ya hemos ido utilizándolo a lo largo de los formularios. El tipo del input es la primera validación en función de si es texto, número, email, contraseña…
 
-**REQUIRED**
+### REQUIRED
 
 Hace referencia a si un campo es obligatorio rellenarlo en el formulario. Utilizamos el atributo **required.**  No se podrá enviar la información del formulario hasta que el campo esté relleno.
 
@@ -215,7 +215,7 @@ Hace referencia a si un campo es obligatorio rellenarlo en el formulario. Utiliz
 
  
 
-**MAXLENGTH / MINLENGHT**
+### MAXLENGTH / MINLENGHT
 
 Con estos atributos validaremos un número máximo o mínimo de caracteres. Con estos atributos podremos controlar el número de caracteres que queremos, ya sea una horquilla o un número exacto
 
@@ -252,7 +252,7 @@ Con estos atributos validaremos un número máximo o mínimo de caracteres. Con 
 
  
 
-**MIN/MAX**
+### MIN/MAX
 
 De igual manera que en los atributos anteriores, min y max nos ayudarán a controlar los campos numéricos poniendo limitaciones.
 
@@ -289,7 +289,7 @@ De igual manera que en los atributos anteriores, min y max nos ayudarán a contr
 
  
 
-**PATRÓN**
+### PATRÓN
 
 Este atributo nos permite validar el contenido de un input usando expresiones regulares, por ejemplo podríamos validar que un input solo contenga letras y números, nada de caracteres especiales
 
