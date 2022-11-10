@@ -1,8 +1,8 @@
 En este video vamos a ver primero cómo incluir imágenes, vídeos y audio en nuestro HTML y después como incrustar contenido que nos puede ser de gran ayuda.
 
-**CONTENIDO MULTIMEDIA**
+## CONTENIDO MULTIMEDIA
 
-**IMÁGENES**
+### IMÁGENES
 
 La etiqueta img nos va a permitir introducir imágenes dentro de nuestra página web. Al igual que otras etiquetas esta no tendría cierre. 
 
@@ -68,7 +68,7 @@ img_large.jpg 1800w" sizes="(max-width: 320px) 300px, (max-width: 1200px)
 1200px, 1800px" alt="la imagen de mi producto">
 ```
 
-**VIDEO Y AUDIO**
+### VIDEO Y AUDIO
 
 Al igual que la etiqueta img nos permitía incluir imágenes dentro del documento HTML, tenemos la etiqueta video que nos permite incluir vídeos dentro de nuestro HTML
 
@@ -154,13 +154,14 @@ De la misma manera, la etiqueta **audio** nos permite incluir audio en nuestra p
 
 Esta etiqueta también tiene los atributos src, autoplay, loop, muted y controls, que funcionan de la misma manera que la etiqueta video
 
-**RUTAS**
+
+## RUTAS
 
 Tras haber trabajado con estas etiquetas y con los enlaces en el vídeo anterior, vemos que es necesario saber manejar rutas para poder incluirlas dentro de nuestro HTML.
 
 Ya no solo enlaces, imágenes, video y audio, si on también los diferentes ficheros de css y Javascript que vamos incluyendo en nuestro proyecto.
 
-**RUTAS ABSOLUTAS**
+### RUTAS ABSOLUTAS
 
 Son rutas que no dependen del contexto en el que estemos navegando y siempre apuntan al mismo sitio, da igual desde donde se las llame.
 
@@ -188,7 +189,7 @@ Podríamos incluir una imagen de google también como ruta absoluta.
 
 Este tipo de rutas son interesantes para enlaces fuera de nuestro dominio, a la hora de trabajar bajo un mismo dominio tiene sentido usar rutas relativas
 
-**RUTAS RELATIVAS**
+### RUTAS RELATIVAS
 
 Nos sirven para referencias elementos que encontramos bajo un mismo dominio, es decir, sobre la página HTML en la que no s encontramos. Lo bueno, que no dependemos de donde se despliegue la página.
 
@@ -246,11 +247,11 @@ Tenemos de varios tipos
 
   
 
-**CONTENIDO INCRUSTADO**
+## CONTENIDO INCRUSTADO
 
 Para finalizar con el video, vamos a ver una etiqueta que nos van a ayudar a incrustar contenido en nuestro documento, más allá de las que ya hemos visto de contenido multimedia.
 
-**IFRAME**
+### IFRAME
 
 La etiqueta iframe nos va a permitir incrustar un documento web dentro de la página. Esta página tendrá sus propios estilos, contenidos…
 
