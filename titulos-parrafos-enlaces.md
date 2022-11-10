@@ -1,6 +1,6 @@
 Tras ver la estructura de un documento HTML y ver las etiquetas semánticas, vamos ahora a seguir viendo etiquetas.
 
-**HEADING**
+### HEADING
 
 Empezamos con la etiqueta HEADING, que nos va a valer para poner títulos en nuestras. Podemos utilizar de la etiqueta a h1 a la etiqueta h6 para estructurar nuestros títulos y subtítulos dentro de la página. Vamos del h1 al h6 por orden de importancia en nuestra página.
 
@@ -17,7 +17,7 @@ Empezamos con la etiqueta HEADING, que nos va a valer para poner títulos en nue
 
  
 
-**PÁRRAFO**
+### PÁRRAFO
 
 Etiqueta que nos va a permitir escribir contenido dentro de nuestra página web. 
 
@@ -31,7 +31,7 @@ Etiqueta que nos va a permitir escribir contenido dentro de nuestra página web.
 
 Todos los párrafos comienzan ocupando una línea nueva, así que, si queremos un salto de línea debemos incluir un párrafo adicional
 
-**SEMÁNTICA DEL TEXTO**
+### SEMÁNTICA DEL TEXTO
 
 Existen una serie de etiquetas que nos van a permitir poder darle una semántica al texto seleccionado, así como un estilo. Damos un repaso a las más utilizadas, pero es importante saber que existen otras que en determinado momento podemos llegar a utilizar. Os dejamos un enlace a la documentación que puede ayudar a ampliar esta info:
 
@@ -184,7 +184,7 @@ https://developer.mozilla.org/es/docs/Web/HTML/Element#sem%C3%A1ntica_del_texto_
      
     
 
-**HIPERENLACES**
+### HIPERENLACES
 
 Esta etiqueta nos va a permitir navegar a páginas dentro de la aplicación o a enlaces externos como otra web…
 
