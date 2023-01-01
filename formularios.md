@@ -85,7 +85,7 @@ Para ayudar al usuario a entender la información que debe introducir en los cam
 <input name="nombre" placeholder="Introduce tu nombre..."/>
 ```
 
-A la hora de validar la información que tienen que introducir el usuario en el input utilizaremos el atributo **type** que nos ayudará a controla el tipo de información que se introduce:
+A la hora de validar la información que tienen que introducir el usuario en el input utilizaremos el atributo **type** que nos ayudará a controlar el tipo de información que se introduce:
 
 ```html
 <!-- Información de tipo texto -->
@@ -98,7 +98,7 @@ A la hora de validar la información que tienen que introducir el usuario en el 
 <input name="email" type="email" placeholder="Introduce tu email..."/>
 
 <!-- Información de tipo password -->
-<input name="email" type="password" placeholder="Introduce tu contraseña..."/>
+<input name="contraseña" type="password" placeholder="Introduce tu contraseña..."/>
 
 <!-- Opción: Checkbox -->
 <input name="opcion" type="checkbox">
@@ -107,7 +107,7 @@ A la hora de validar la información que tienen que introducir el usuario en el 
 <input name="opcion" type="radio">
 
 <!-- Archivos: File -->
-<input name="opcion" type="file">
+<input name="archivo" type="file">
 ```
 
 Por último, y cabe remarcarlo por separado, tenemos el tipo **submit** que nos va a permitir enviar toda la información del formulario
@@ -146,7 +146,7 @@ Partiendo del siguiente formulario:
   <h3>Formulario registro gimnasio</h3>
   <fieldset>
 		<legend>Datos personales</legend>
-	  <label>
+	  	<label>
 			Usuario:
 			<input type="text" name="nombre" placeholder="Introduce tu nombre...">
 		</label>
@@ -157,7 +157,7 @@ Partiendo del siguiente formulario:
   </fieldset>
   <fieldset>
 		<legend>Datos suscripción</legend>
-	  <label>
+	  	<label>
 			Dias que asistirás al gimnasio:
 			<input type="number" name="dias" placeholder="Introducde el número de días...">
 		</label>
@@ -176,11 +176,11 @@ Los tipos de validación básicos serían:
 
 ### TYPE
 
-Ya hemos ido utilizándolo a lo largo de los formularios. El tipo del input es la primera validación en función de si es texto, número, email, contraseña…
+Ya lo hemos ido utilizándolo a lo largo de los formularios. El tipo del input es la primera validación en función de si es texto, número, email, contraseña…
 
 ### REQUIRED
 
-Hace referencia a si un campo es obligatorio rellenarlo en el formulario. Utilizamos el atributo **required.**  No se podrá enviar la información del formulario hasta que el campo esté relleno.
+Hace referencia a si es obligatorio rellenar un campo en el formulario. Utilizamos el atributo **required.**  No se podrá enviar la información del formulario hasta que el campo esté relleno.
 
  
 
@@ -189,7 +189,7 @@ Hace referencia a si un campo es obligatorio rellenarlo en el formulario. Utiliz
   <h3>Formulario registro gimnasio</h3>
   <fieldset>
 		<legend>Datos personales</legend>
-	  <label>
+	  	<label>
 			Usuario:
 			<input type="text" name="nombre" placeholder="Introduce tu nombre..." required>
 		</label>
@@ -200,7 +200,7 @@ Hace referencia a si un campo es obligatorio rellenarlo en el formulario. Utiliz
   </fieldset>
   <fieldset>
 		<legend>Datos suscripción</legend>
-	  <label>
+	  	<label>
 			Dias que asistirás al gimnasio:
 			<input type="number" name="dias" placeholder="Introducde el número de días..." required>
 		</label>
@@ -226,7 +226,7 @@ Con estos atributos validaremos un número máximo o mínimo de caracteres. Con 
   <h3>Formulario registro gimnasio</h3>
   <fieldset>
 		<legend>Datos personales</legend>
-	  <label>
+	  	<label>
 			Usuario:
 			<input type="text" name="nombre" placeholder="Introduce tu nombre..." maxlength="10" required>
 		</label>
@@ -237,7 +237,7 @@ Con estos atributos validaremos un número máximo o mínimo de caracteres. Con 
   </fieldset>
   <fieldset>
 		<legend>Datos suscripción</legend>
-	  <label>
+	  	<label>
 			Dias que asistirás al gimnasio:
 			<input type="number" name="dias" placeholder="Introducde el número de días..." required>
 		</label>
@@ -263,7 +263,7 @@ De igual manera que en los atributos anteriores, min y max nos ayudarán a contr
   <h3>Formulario registro gimnasio</h3>
   <fieldset>
 		<legend>Datos personales</legend>
-	  <label>
+	  	<label>
 			Usuario:
 			<input type="text" name="nombre" placeholder="Introduce tu nombre..." maxlength="10" required>
 		</label>
@@ -274,7 +274,7 @@ De igual manera que en los atributos anteriores, min y max nos ayudarán a contr
   </fieldset>
   <fieldset>
 		<legend>Datos suscripción</legend>
-	  <label>
+	  	<label>
 			Dias que asistirás al gimnasio:
 			<input type="number" name="dias" placeholder="Introducde el número de días..." max="7" min="1" required>
 		</label>
