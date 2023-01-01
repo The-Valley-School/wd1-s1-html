@@ -53,7 +53,7 @@ Se trata de una agrupación de elementos comunes dentro del formulario y siembre
 
 ### INPUT Y LABEL
 
-Para que el usuario pueda introducir información usamos las etiquetas input (igual que la de img, no hay apertura cierre). Con la etiqueta label damos información al usuario del contenido que tiene que meter dentro de ese input:
+Para que el usuario pueda introducir información usamos las etiquetas input (igual que la de img, no hay etiqueta de cierre). Con la etiqueta label damos información al usuario del contenido que tiene que meter dentro de ese input:
 
 ```html
 <form>
